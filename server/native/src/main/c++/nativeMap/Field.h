@@ -94,6 +94,10 @@ struct Field {
     env->GetByteArrayRegion(f, 0, len, (jbyte *)field);
   }
 
+  bool operator==(const Field &of) const {
+    return (len == of.len) && !memcmp(field, of.field, len);
+  }
+
   int compare(const Field &of) const{
     return compare(field, len, of.field, of.len);
   }

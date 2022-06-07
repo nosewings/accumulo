@@ -71,8 +71,7 @@ struct Iterator {
       return;
     }
 
-    //TODO use equals instead of compare
-    if(rowIter->first.compare(row) == 0){
+    if(rowIter->first == row){
       colIter = rowIter->second.lower_bound(sk);
     }else{
       colIter = rowIter->second.begin();
