@@ -110,14 +110,26 @@ JNIEXPORT jboolean JNICALL Java_org_apache_accumulo_tserver_NativeMap_nmiNext(JN
 }
 
 JNIEXPORT void JNICALL Java_org_apache_accumulo_tserver_NativeMap_nmiGetData(JNIEnv *env, jclass cls, jlong ip, jbyteArray r, jbyteArray cf, jbyteArray cq, jbyteArray cv, jbyteArray val) {
+  jint err;
   Iterator &iter = *((Iterator *)ip);
   if(r != NULL) {
-    iter.rowIter->first.fillIn(env, r);
+    err = iter.rowIter->first.fillIn(env, r);
+    if (err) {
+      return;
+    }
   }
-
-  iter.colIter->first.getCF().fillIn(env, cf);
-  iter.colIter->first.getCQ().fillIn(env, cq);
-  iter.colIter->first.getCV().fillIn(env, cv);
+  err = iter.colIter->first.getCF().fillIn(env, cf);
+  if (err) {
+    return;
+  }
+  err = iter.colIter->first.getCQ().fillIn(env, cq);
+  if (err) {
+    return;
+  }
+  err = iter.colIter->first.getCQ().fillIn(env, cq);
+  if (err) {
+    return;
+  }
   iter.colIter->second.fillIn(env, val);
 }
 

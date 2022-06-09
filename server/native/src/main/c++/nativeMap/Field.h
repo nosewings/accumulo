@@ -106,9 +106,17 @@ struct Field {
     return len;
   }
 
-  void fillIn(JNIEnv *env, jbyteArray d) const {
-    //TODO ensure lengths match up
+  jint fillIn(JNIEnv *env, jbyteArray d) const {
+    if (env->GetArrayLength(d) != len) {
+      jclass cls = env->FindClass("java/lang/IllegalArgumentException");
+      if (!cls) {
+        return -1;
+      }
+      env->ThrowNew(cls, "array length does not match field length");
+      return -1;
+    }
     env->SetByteArrayRegion(d, 0, len, (jbyte *)field);
+    return 0;
   }
 
   jbyteArray createJByteArray(JNIEnv *env) const{
