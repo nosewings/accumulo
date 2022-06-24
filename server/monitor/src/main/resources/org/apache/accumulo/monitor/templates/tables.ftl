@@ -88,7 +88,7 @@
         }
       </script>
       <div>
-        <table id="tableList" class="table table-bordered table-striped table-condensed">
+        <table id="tableList" class="table table-bordered table-striped table-sm">
           <caption><span class="table-caption">${tablesTitle}</span><br /></caption>
           <thead>
             <tr>

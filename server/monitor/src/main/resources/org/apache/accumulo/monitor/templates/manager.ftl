@@ -21,7 +21,7 @@
     <div id="managerBanner" style="display: none;">
         <div class="alert alert-danger" role="alert">Manager Server Not Running</div>
     </div>
-    <table id="managerStatus" class="table table-bordered table-striped table-condensed">
+    <table id="managerStatus" class="table table-bordered table-striped table-sm">
         <caption><span class="table-caption">${title}</span><br /></caption>
         <thead>
             <tr>
@@ -42,7 +42,7 @@
         <tbody></tbody>
     </table>
     <br /><br />
-    <table id="recoveryList" class="table table-bordered table-striped table-condensed">
+    <table id="recoveryList" class="table table-bordered table-striped table-sm">
         <caption><span class="table-caption">Log&nbsp;Recovery</span><br />
             <span class="table-subcaption">Some tablets were unloaded in an unsafe manner. Write-ahead logs are being
                 recovered.</span><br />

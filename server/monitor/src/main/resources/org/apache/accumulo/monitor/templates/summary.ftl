@@ -35,7 +35,7 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <table id="traceSummary" class="table table-bordered table-striped table-condensed">
+          <table id="traceSummary" class="table table-bordered table-striped table-sm">
             <thead>
               <tr>
                 <th class="firstcell" title="Trace Type">Type&nbsp;</th>

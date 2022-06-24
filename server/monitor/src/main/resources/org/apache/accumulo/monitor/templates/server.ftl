@@ -68,7 +68,7 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <table id="currentTabletOps" class="table table-bordered table-striped table-condensed">
+          <table id="currentTabletOps" class="table table-bordered table-striped table-sm">
             <caption><span class="table-caption">Current&nbsp;Tablet&nbsp;Operation&nbsp;Results</span></caption>
             <thead>
               <tr>
@@ -84,7 +84,7 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <table id="perTabletResults" class="table table-bordered table-striped table-condensed">
+          <table id="perTabletResults" class="table table-bordered table-striped table-sm">
             <caption><span class="table-caption">Detailed Tablet Operations</span></caption>
             <thead>
               <tr>

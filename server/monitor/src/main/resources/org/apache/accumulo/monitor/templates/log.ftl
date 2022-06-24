@@ -111,7 +111,7 @@
       </script>
       <div><h3>${title}</h3></div>
       <div>
-        <table id="logTable" class="table table-bordered table-striped table-condensed">
+        <table id="logTable" class="table table-bordered table-striped table-sm">
           <thead>
             <tr>
               <th>Timestamp</th>

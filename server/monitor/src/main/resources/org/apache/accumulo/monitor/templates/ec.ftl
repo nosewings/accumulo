@@ -27,9 +27,9 @@
     <div id="ecDiv">
       <div class="row">
         <div class="col-12">
-          <div class="panel panel-primary">
-            <div class="panel-heading">Compaction&nbsp;Coordinator&nbsp;running&nbsp;on:&nbsp;<span id="ccHostname" title="The hostname of the compaction coordinator server"></span></div>
-            <div class="panel-body">
+          <div class="card text-white bg-primary">
+            <div class="card-header">Compaction&nbsp;Coordinator&nbsp;running&nbsp;on:&nbsp;<span id="ccHostname" title="The hostname of the compaction coordinator server"></span></div>
+            <div class="card-body">
                 Queues&nbsp;<span id="ccNumQueues" class="badge" title="Number of queues configured">0</span>&nbsp;&nbsp;&nbsp;&nbsp;
                 Compactors&nbsp;<span id="ccNumCompactors" class="badge" title="Number of compactors running">0</span>&nbsp;&nbsp;&nbsp;&nbsp;
                 Last&nbsp;Contact&nbsp;<span id="ccLastContact" class="badge" title="Last time data was fetched. Server fetches on refresh, at most every minute."></span>
@@ -39,7 +39,7 @@
       </div>
       <div class="row">
       <div class="col-12">
-        <table id="compactorsTable" class="table table-bordered table-striped table-condensed">
+        <table id="compactorsTable" class="table table-bordered table-striped table-sm">
           <caption><span class="table-caption">Compactors</span>
           <a href="javascript:refreshCompactors();"><span class="glyphicon glyphicon-refresh"></span></a></caption>
           <thead>
@@ -53,7 +53,7 @@
       </div>
       <div class="row">
           <div class="col-12">
-            <table id="runningTable" class="table table-bordered table-striped table-condensed">
+            <table id="runningTable" class="table table-bordered table-striped table-sm">
               <caption><span class="table-caption">Running Compactions</span>
               <a href="javascript:refreshRunning();"><span class="glyphicon glyphicon-refresh"></span></a></caption>
               <thead>

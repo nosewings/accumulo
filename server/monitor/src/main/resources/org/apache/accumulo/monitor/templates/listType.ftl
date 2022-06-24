@@ -36,7 +36,7 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <table id="trace" class="table table-bordered table-striped table-condensed">
+          <table id="trace" class="table table-bordered table-striped table-sm">
             <caption><span class="table-caption">Traces for managerReplicationDriver</span><br/></caption>
             <thead>
               <tr>

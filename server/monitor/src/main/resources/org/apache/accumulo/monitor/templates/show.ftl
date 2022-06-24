@@ -68,7 +68,7 @@
       </div>
       <div class="row">
         <div class="col-12">
-          <table id="trace" class="table table-bordered table-striped table-condensed">
+          <table id="trace" class="table table-bordered table-striped table-sm">
             <caption><span id="caption" class="table-caption">Trace ${id} started at<br/></span></caption>
             <thead>
               <tr>
