@@ -30,7 +30,7 @@
           <div class="panel panel-primary">
             <div class="panel-heading">Compaction&nbsp;Coordinator&nbsp;running&nbsp;on:&nbsp;<span id="ccHostname" title="The hostname of the compaction coordinator server"></span></div>
             <div class="panel-body">
-                Queues&nbsp;<span id="ccNumQueues" class="badge" title="Number of queues configured">0</span></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                Queues&nbsp;<span id="ccNumQueues" class="badge" title="Number of queues configured">0</span>&nbsp;&nbsp;&nbsp;&nbsp;
                 Compactors&nbsp;<span id="ccNumCompactors" class="badge" title="Number of compactors running">0</span>&nbsp;&nbsp;&nbsp;&nbsp;
                 Last&nbsp;Contact&nbsp;<span id="ccLastContact" class="badge" title="Last time data was fetched. Server fetches on refresh, at most every minute."></span>
             </div>
@@ -41,7 +41,7 @@
       <div class="col-xs-12">
         <table id="compactorsTable" class="table table-bordered table-striped table-condensed">
           <caption><span class="table-caption">Compactors</span>
-          <a href="javascript:refreshCompactors();"><span class="glyphicon glyphicon-refresh"/></a></caption>
+          <a href="javascript:refreshCompactors();"><span class="glyphicon glyphicon-refresh"></span></a></caption>
           <thead>
             <tr>
               <th class="firstcell" title="The hostname the compactor is running on.">Server</th>
@@ -55,7 +55,7 @@
           <div class="col-xs-12">
             <table id="runningTable" class="table table-bordered table-striped table-condensed">
               <caption><span class="table-caption">Running Compactions</span>
-              <a href="javascript:refreshRunning();"><span class="glyphicon glyphicon-refresh"/></a></caption>
+              <a href="javascript:refreshRunning();"><span class="glyphicon glyphicon-refresh"></span></a></caption>
               <thead>
                 <tr>
                   <th class="firstcell" title="The hostname the compactor is running on.">Server Hostname</th>
@@ -73,6 +73,7 @@
               <tbody></tbody>
             </table>
           </div>
+        </div>
       </div>
     </div>
    <#else>

@@ -89,7 +89,7 @@
       </script>
       <div>
         <table id="tableList" class="table table-bordered table-striped table-condensed">
-          <caption><span class="table-caption">${tablesTitle}</span><br />
+          <caption><span class="table-caption">${tablesTitle}</span><br /></caption>
           <thead>
             <tr>
               <th>Table&nbsp;Name</th>
