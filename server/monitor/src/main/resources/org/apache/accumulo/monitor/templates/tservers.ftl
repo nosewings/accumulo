@@ -19,12 +19,12 @@
 
 -->
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
           <h3>${title}</h3>
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
           <table id="badtservers" class="table table-bordered table-striped table-condensed">
             <caption><span class="table-caption">Non-Functioning Tablet Servers</span><br/>
               <span class="table-subcaption">The following tablet servers reported a status other than Online.</span><br/></caption>

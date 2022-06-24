@@ -19,14 +19,14 @@
 
 -->
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
           <h3>${title}</h3>
         </div>
       </div>
     <#if coordinatorRunning == true>
     <div id="ecDiv">
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
           <div class="panel panel-primary">
             <div class="panel-heading">Compaction&nbsp;Coordinator&nbsp;running&nbsp;on:&nbsp;<span id="ccHostname" title="The hostname of the compaction coordinator server"></span></div>
             <div class="panel-body">
@@ -38,7 +38,7 @@
         </div>
       </div>
       <div class="row">
-      <div class="col-xs-12">
+      <div class="col-12">
         <table id="compactorsTable" class="table table-bordered table-striped table-condensed">
           <caption><span class="table-caption">Compactors</span>
           <a href="javascript:refreshCompactors();"><span class="glyphicon glyphicon-refresh"></span></a></caption>
@@ -52,7 +52,7 @@
         </table>
       </div>
       <div class="row">
-          <div class="col-xs-12">
+          <div class="col-12">
             <table id="runningTable" class="table table-bordered table-striped table-condensed">
               <caption><span class="table-caption">Running Compactions</span>
               <a href="javascript:refreshRunning();"><span class="glyphicon glyphicon-refresh"></span></a></caption>

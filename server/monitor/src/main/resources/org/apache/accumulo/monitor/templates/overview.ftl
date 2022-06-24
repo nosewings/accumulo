@@ -19,12 +19,12 @@
 
 -->
       <div class="row">
-        <div class="col-xs-12 center nowrap">
+        <div class="col-12 center nowrap">
           <h3>${title}</h3>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-6 col-sm-offset-3" id="manager">
+        <div class="col-md-6 col-sm-offset-3" id="manager">
           <table class="table table-bordered table-striped table-condensed">
             <thead>
               <tr><th colspan="2"><a href="/manager">Accumulo Manager</a></th></tr>
@@ -42,51 +42,51 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <div class="plotHeading">Ingest (Entries/s)</div>
           <div id="ingest_entries" class="plot"></div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <div class="plotHeading">Scan (Entries/s)</div>
           <div id="scan_entries" class="plot"></div>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <div class="plotHeading">Ingest (MB/s)</div>
           <div id="ingest_mb" class="plot"></div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <div class="plotHeading">Scan (MB/s)</div>
           <div id="scan_mb" class="plot"></div>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <div class="plotHeading">Load Average</div>
           <div id="load_avg" class="plot"></div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <div class="plotHeading">Seeks</div>
           <div id="seeks" class="plot"></div>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <div class="plotHeading">Minor Compactions</div>
           <div id="minor" class="plot"></div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <div class="plotHeading">Major Compactions</div>
           <div id="major" class="plot"></div>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <div class="plotHeading">Index Cache Hit Rate</div>
           <div id="index_cache" class="plot"></div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <div class="plotHeading">Data Cache Hit Rate</div>
           <div id="data_cache" class="plot"></div>
         </div>

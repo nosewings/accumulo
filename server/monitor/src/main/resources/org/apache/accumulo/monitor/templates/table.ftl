@@ -28,12 +28,12 @@
         });
       </script>
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
           <h3>${title}</h3>
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
           <table id="participatingTServers" class="table table-bordered table-striped table-condensed">
             <caption><span class="table-caption">${table}</span></caption>
             <thead>

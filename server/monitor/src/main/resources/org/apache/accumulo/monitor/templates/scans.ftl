@@ -19,12 +19,12 @@
 
 -->
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
           <h3>${title}</h3>
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
           <table id="scansList" class="table table-bordered table-striped table-condensed">
             <thead>
              <tr>

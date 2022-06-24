@@ -25,12 +25,12 @@
         });
       </script>
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
           <h3>${title}</h3>
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
           <table id="tServerDetail" class="table table-bordered table-striped table-condensed">
             <caption><span class="table-caption">${server}</span></caption>
             <thead>
@@ -47,7 +47,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
           <table id="opHistoryDetails" class="table table-bordered table-striped table-condensed">
             <caption><span class="table-caption">All-Time&nbsp;Tablet&nbsp;Operation&nbsp;Results</span></caption>
             <thead>
@@ -67,7 +67,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
           <table id="currentTabletOps" class="table table-bordered table-striped table-condensed">
             <caption><span class="table-caption">Current&nbsp;Tablet&nbsp;Operation&nbsp;Results</span></caption>
             <thead>
@@ -83,7 +83,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
           <table id="perTabletResults" class="table table-bordered table-striped table-condensed">
             <caption><span class="table-caption">Detailed Tablet Operations</span></caption>
             <thead>

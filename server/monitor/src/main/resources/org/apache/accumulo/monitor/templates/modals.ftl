@@ -30,24 +30,24 @@
           <div class="modal-body">
             <div class="container-fluid">
               <div class="row">
-                <div class="col-sm-4 text-right">Software</div>
-                <div class="col-sm-6 text-left"><a href="https://accumulo.apache.org" target="_blank">Apache&nbsp;Accumulo</a></div>
+                <div class="col-md-4 text-right">Software</div>
+                <div class="col-md-6 text-left"><a href="https://accumulo.apache.org" target="_blank">Apache&nbsp;Accumulo</a></div>
               </div>
               <div class="row">
-                <div class="col-sm-4 text-right">Version</div>
-                <div class="col-sm-6 text-left">${version}</div>
+                <div class="col-md-4 text-right">Version</div>
+                <div class="col-md-6 text-left">${version}</div>
               </div>
               <div class="row">
-                <div class="col-sm-4 text-right">Instance&nbsp;Name</div>
-                <div class="col-sm-6 text-left">${instance_name}</div>
+                <div class="col-md-4 text-right">Instance&nbsp;Name</div>
+                <div class="col-md-6 text-left">${instance_name}</div>
               </div>
               <div class="row">
-                <div class="col-sm-4 text-right">Instance&nbsp;Id</div>
-                <div class="col-sm-6 text-left">${instance_id}</div>
+                <div class="col-md-4 text-right">Instance&nbsp;Id</div>
+                <div class="col-md-6 text-left">${instance_id}</div>
               </div>
               <div class="row">
-                <div class="col-sm-4 text-right">ZooKeeper&nbsp;Hosts</div>
-                <div class="col-sm-6 text-left">${zk_hosts}</div>
+                <div class="col-md-4 text-right">ZooKeeper&nbsp;Hosts</div>
+                <div class="col-md-6 text-left">${zk_hosts}</div>
               </div>
             </div>
           </div>
