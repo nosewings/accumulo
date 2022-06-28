@@ -20,15 +20,15 @@
 -->
     <div id="navbar" class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
       <div class="container-fluid">
+        <a class="navbar-brand" id="headertitle" href="/">
+          <img id="accumulo-avatar" alt="accumulo" class=" float-left" src="/resources/images/accumulo-avatar.png" />
+          ${instance_name}
+        </a>
         <!-- toggle -->
         <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#nav-items" aria-expanded="false">
           <span class="visually-hidden">Toggle navigation</span>
           &#x2630;
         </button>
-        <a class="navbar-brand" id="headertitle" href="/">
-          <img id="accumulo-avatar" alt="accumulo" class=" float-left" src="/resources/images/accumulo-avatar.png" />
-          ${instance_name}
-        </a>
         <!-- Nav links -->
         <div class="collapse navbar-collapse" id="nav-items">
           <ul class="nav navbar-nav ms-auto">
