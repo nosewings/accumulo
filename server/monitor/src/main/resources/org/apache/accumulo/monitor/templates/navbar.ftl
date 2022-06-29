@@ -18,7 +18,7 @@
     under the License.
 
 -->
-    <div id="navbar" class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
+    <div id="navbar" class="navbar navbar-dark bg-dark sticky-top navbar-expand-md">
       <div class="container-fluid">
         <a class="navbar-brand" id="headertitle" href="/">
           <img id="accumulo-avatar" alt="accumulo" class=" float-left" src="/resources/images/accumulo-avatar.png" />
